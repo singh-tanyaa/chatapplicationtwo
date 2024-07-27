@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+   .flex-1::-webkit-scrollbar {
+    display: none;
+  } 
+
+  .scroll-hidden {
+    /* For Firefox */
+    overflow: hidden; /* For other browsers */
+    scrollbar-width: none; /* For Firefox */
+  }
